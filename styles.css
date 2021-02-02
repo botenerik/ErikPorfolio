@@ -1,0 +1,241 @@
+* {
+    background-color: #daf0ee;
+    box-sizing: border-box;
+    font-family: 'Mada', sans-serif;
+    color: #331E36;
+}
+
+body {
+    background-color: #daf0ee;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 1.5em;
+}
+
+/*-------------Reusable Main-----------*/
+.arrow-top {
+    background-color: transparent;
+    position: fixed;
+    font-size: 3em;
+    right: 10%;
+    bottom: 1em;
+}
+
+.overview,
+.overview-title,
+.overview-description {
+    background-color: #daf0ee;
+}
+
+.overview {
+
+    padding: 0 31% 5%;
+}
+
+.overview-title,
+.overview-description {
+    color: #331E36;
+}
+
+.no-gutter {
+    padding: 0;
+}
+
+.wrapper {
+    padding: 3% 15%;
+}
+
+.thumbnail {
+    text-decoration: none;
+}
+
+.extra-padding-top {
+    padding-top: 2.5em;
+}
+
+.extra-padding-bottom {
+    padding-bottom: 2.5em;
+}
+
+ion-icon {
+    background-color: transparent;
+    color: #D35269;
+}
+
+ion-icon:hover {
+    color: #993243;
+}
+
+/*-------------IMG--------------*/
+.app-logo {
+    width: 100%
+}
+
+.diagrams {
+    width: 100%;
+}
+
+.img-shadow {
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.33));
+}
+
+.hemostasis-gif {
+    width: 100%;
+    margin: auto;
+}
+
+.project-main-img {
+    width: 50%;
+    transition: transform .2s;
+}
+
+.project-cover-img {
+    width: 100%;
+}
+
+.project-main-img:hover {
+    transform: scale(1.1);
+}
+
+.persona-img {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.other-apps {
+    width: 90%;
+}
+
+.wireframes-large,
+.vacillate-gif {
+    width: 70%;
+}
+
+.gif-row {
+    padding-top: 4em;
+    padding-bottom: 1em;
+    background-color:
+}
+
+.style-guide {
+    width: 100%
+}
+
+.prototype-large,
+.tinder {
+    text-align: center;
+}
+
+
+
+.tinder-logo {
+    width: 70%;
+}
+
+/*-------------Nav-----------*/
+.navbar {
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
+
+.navbar-nav {
+    margin-right: 15%;
+}
+
+/*-------------BIO-----------*/
+.bio-text {
+    margin: auto;
+}
+
+.mini-bio {
+    padding-top: 6em;
+}
+
+.selfie {
+    width: 40%;
+    border-radius: 50%;
+    margin-left: 60%;
+}
+
+.name {
+    font-family: 'Caveat', cursive;
+}
+
+/*------------PROJECTS----------*/
+.app-comparison {
+    padding: 5%
+}
+
+.projects {
+    padding-top: 7%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.projects-header,
+.study-header {
+    padding-bottom: 1.3em;
+}
+
+.projects-header:hover {
+    color: #94d1be;
+}
+
+.project-wrapper,
+.gif-col,
+.gif-title {
+    background-color: #daf0ee;
+    text-align: center;
+    color: #331E36;
+}
+
+.problem-box {
+    padding: 10% 20%;
+}
+
+.section-header {
+    text-align: center;
+    color: #D35269;
+    position: relative;
+    padding-top: 20%;
+}
+
+.section-header::after {
+    content: '';
+    height: 2px;
+    width: 20%;
+    background: #D35269;
+    position: absolute;
+    left: calc(50% - 10%);
+    bottom: -10px;
+}
+
+.page-title {
+    padding-top: 7%;
+    background-color: #daf0ee;
+    color: #331E36;
+}
+
+.persona-header {
+    padding: 3% 15%;
+}
+
+.positives {
+    margin: auto;
+}
+
+.design-row {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}

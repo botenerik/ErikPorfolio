@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Erik Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Mada:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link href="../styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--------------------------------NAV---------------------------------------------------------------->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="../index.html">Home</a>
+                    <a class="nav-link ms-4" href="mailto:eriklopezgarza@gmail.com">Contact Me</a>
+                    <a class="nav-link ms-4" href="https://www.linkedin.com/in/eriklopezgarza/">LinkedIn</a>
+                    <a class="nav-link ms-4" href="https://www.deviantart.com/botenerik">DeviantArt</a>
+                    <a class="nav-link ms-4" href="https://pixabay.com/users/botenerik-19894301/">Pixabay</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-----------------------------OVERVIEW--------------------------------->
+    <div class="container-fluid no-gutter">
+        <div class="project-wrapper">
+            <img src="../img/console-simulator-page-cover.png">
+        </div>
+    </div>
+    <div class="container wrapper">
+        <h2 class="study-header page-title">PROCEPT BioRobotics - Peripheral Simulator</h2>
+        <h3 class="study-header overview-title">Project Overview</h3>
+        <p class="overview-description">PROCEPT's Robotic System consists of different components: the CPU, the Console, and the Motorpack/Handpiece. The software development team created a program called the console simulator in order to mimic the Console which then can be used in R&amp;D testing. My task was to redesign the original program so that it includes some the other new peripheral simulators as well as improve usability.</p>
+    </div>
+    <div class="container wrapper">
+        <h3 class="study-header">The Problem</h3>
+        <p>There will new simulators that the software development team will need for testing in the future, redesign the program so it can include the new peripherals and improve the layout so that it's easy to learn to use.</p>
+    </div>
+    <div class="container wrapper">
+        <h3 class="study-header">Challenges</h3>
+        <p>This project was pretty straight forward and since there was an existing software there was a lot to work off. The main challenge is that there was only going to be a handful of users utilizing the software, so the feedback will be minimal.</p>
+    </div>
+    <!----------Research------------------------>
+    <div class="container wrapper">
+        <h1 class="section-header">Understanding the Product</h1>
+    </div>
+    <div class="container persona-header">
+        <h3 class="study-header">The Users</h3>
+        <p>This peripheral software was created for the hardware engineers to use for testing. So, it was easy to get the design requirements and feedback since they were part of the team.</p>
+    </div>
+    <div class="container persona-header">
+        <h3 class="study-header">The Current Software</h3>
+        <p>The simulator's main purpose was to send data to the CPU, which contains the main software used in the procedure, and then display returned data. The old software design helped give us the requirements for the new software.</p>
+    </div>
+    <div class="container-fluid persona-img">
+        <img class="wireframes-large" src="../img/old-simulator-design.png">
+    </div>
+    <!----------Design------------------>
+    <div class="container wrapper">
+        <h1 class="section-header">Planning the Design</h1>
+    </div>
+    <div class="container persona-header">
+        <h3 class="study-header">Informational Architecture</h3>
+        <p>The Console simulator had two sections, Test and Data. Each section will have it's own menu bar since the view and presets options will be different in both sections. Settings and recording will remain the same for both sections. The Test section also has three sections within for the currently available configurations. The Data section will mainly display a table with the data sets with options for customization.</p>
+    </div>
+    <div class="container persona-img">
+        <img class="wireframes-large" src="../img/simulator-architecture.png">
+    </div>
+    <div class="container persona-header">
+        <h3 class="study-header">Low-Fidelity Prototypes</h3>
+        <p>
+            Tabs were used in order to create hierarchy. The buttons to cycle through the peripherals are on left and the components for them will be on the right. There are two main screens, Test and Data.
+        </p>
+    </div>
+    <div class="container-fluid persona-img no-gutter">
+        <div class="project-wrapper">
+            <img class="wireframes-large" src="../img/simulato-wireframes-large.png">
+        </div>
+    </div>
+    <!-------------FINAL DESIGN--------------->
+    <div class="container wrapper">
+        <h1 class="section-header">Final Design</h1>
+    </div>
+    <div class="container persona-header">
+        <p>
+            Using Invision Studios, we were able to create high fidelity prototypes of a design that is currently in development.
+        </p>
+        <h3 class="study-header extra-padding-top">High Fidelity Prototypes </h3>
+        <p>For colors and fonts, we followed the company's style guide. A darker pallete was used in order to match the main software's dark color scheme. The company's primary color was used for a lot of the main buttons. Calibri was used as a the main font as required by the style guide.</p>
+    </div>
+    <div class="container">
+        <div class="row design-row">
+            <div class="col">
+                <img class="hemostasis-gif" src="../img/simulator-gif-test.gif">
+            </div>
+            <div class="col positives">
+                <h2>Send Out Data</h2>
+                <p>Use the Test Tab to send data to the CPU.</p>
+            </div>
+        </div>
+        <div class="row design-row">
+            <div class="col positives">
+                <h2>Receive Incoming Data</h2>
+                <p>Use the Data tab to display data sets and customize the items displayed.</p>
+            </div>
+            <div class="col">
+                <img class="hemostasis-gif" src="../img/simulator-gif-data.gif">
+            </div>
+        </div>
+    </div>
+    <div class="container persona-header">
+        <h3 class="study-header">Final Takeaway</h3>
+        <p>One of the biggest advantages of designing the software is being able to receive user feedback quickly, especially since the users were part of the development team. Although, we didn't utilize proper methods for feedback from the user which could've greatly helped in creating a better design. The initial design that the software team developed was also very useful for deciding what components the users needed. We didn't have to conduct too much research on what features were needed since they were laid out explicitly.</p>
+    </div>
+    <!------------EXTRA---------------->
+    <a href="#top" class="arrow-top">
+        <ion-icon name="arrow-up-circle-outline"></ion-icon>
+    </a>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+</body>
+
+</html>

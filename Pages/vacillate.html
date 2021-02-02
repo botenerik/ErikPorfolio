@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Erik Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Mada:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link href="../styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b1e382be15.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--------------------------------NAV---------------------------------------------------------------->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="../index.html">Home</a>
+                    <a class="nav-link ms-4" href="mailto:eriklopezgarza@gmail.com">Contact Me</a>
+                    <a class="nav-link ms-4" href="https://www.linkedin.com/in/eriklopezgarza/">LinkedIn</a>
+                    <a class="nav-link ms-4" href="https://www.deviantart.com/botenerik">DeviantArt</a>
+                    <a class="nav-link ms-4" href="https://pixabay.com/users/botenerik-19894301/">Pixabay</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-----------------------------OVERVIEW--------------------------------->
+    <div class="container-fluid no-gutter">
+        <div class="project-wrapper">
+            <img class="project-cover-img" src="../img/vacillate%20page%20cover.png">
+        </div>
+    </div>
+    <div class="container wrapper">
+        <h2 class="study-header page-title">Vacillate</h2>
+        <h3 class="study-header overview-title">Project Overview</h3>
+        <p class="overview-description">One of the annoying problems couples or friends face is trying to decide on what to eat or watch. Instead of going back and forth picking something, what if there was an app that groups can utilize to pick what they like using the same mechanics that dating apps use? Vacillate helps solve this problem. Our goal for this design was to create a simple and easy to use app that utilizes the like or dislike system that dating apps use. Users should be able to cycle through items until a match is received.</p>
+    </div>
+    <div class="container wrapper">
+        <h3 class="study-header">The Problem</h3>
+        <p>Groups have difficulties deciding on a place to eat or something to watch, design an app that utilizes dating apps matching system in order to speed up the decision making process and make it easier.</p>
+    </div>
+    <div class="container wrapper">
+        <h3 class="study-header">Challenges</h3>
+        <p>The biggest challenge for this project will be making sure the design stays simple and doesn't require too many actions to set up. The app is meant to be quick and easy to use, so an overly complicated workflow can frustrate the user.</p>
+    </div>
+    <!----------Research------------------------>
+    <div class="container wrapper">
+        <h1 class="section-header">Research</h1>
+    </div>
+    <div class="container persona-header">
+        <h3 class="study-header">The Users</h3>
+        <p>Reasearch was done through online surveys. Particiapants were asked questions pertaining to their favorite hobbies, activities they enjoy doing with others and difficulties faced when planning events. This information was used to create a persona and journey map that will be referred to when designing the application.</p>
+    </div>
+    <div class="container persona-img">
+        <img class="other-apps" src="../img/activity%20picker%20persona.png">
+    </div>
+    <div class="container persona-header">
+        <h3 class="study-header">Other Products</h3>
+        <p>Most of the inspiration for the design was modeled after dating apps. The designs of three popular dating apps were analyzed to help plan the design. Coffee Meets Bagel proved to be the most useful in planning the structure of the item profiles.</p>
+    </div>
+    <div class="container-fluid app-comparison">
+        <div class="row">
+            <div class="col tinder">
+                <img class="app-logo tinder-logo" src="../img/tinder%20logo.png">
+            </div>
+            <div class="col">
+                <h2>Tinder</h2>
+                <br>
+                <p><i class="fas fa-plus"></i> Clear icons</p>
+                <p><i class="fas fa-plus"></i> Well displayed images</p>
+                <p><i class="fas fa-minus"></i> Have to scroll to see more details</p>
+            </div>
+            <div class="col">
+                <img class="app-logo" src="../img/hinge%20logo.png">
+            </div>
+            <div class="col">
+                <h2>Hinger</h2>
+                <br>
+                <p><i class="fas fa-plus"></i> Minimalistic design</p>
+                <p><i class="fas fa-minus"></i> Have to like a specific item on the profile</p>
+                <p><i class="fas fa-minus"></i> Have to scroll to see more details</p>
+            </div>
+            <div class="col">
+                <img class="app-logo" src="../img/Coffemeetsbagel_logo.png">
+            </div>
+            <div class="col">
+                <h2>Coffee Meets Bagel</h2>
+                <br>
+                <p><i class="fas fa-plus"></i> Photos and description easily visible</p>
+                <p><i class="fas fa-plus"></i> Clear icons</p>
+            </div>
+        </div>
+    </div>
+    <!----------Design------------------>
+    <div class="container wrapper">
+        <h1 class="section-header">Planning the Design</h1>
+    </div>
+    <div class="container persona-header">
+        <h3 class="study-header">Informational Architecture and Wireframes</h3>
+        <p>The architecture for the design would be very simple. The application is inteded to do one simple thing, present a list of items that users can like or dislike, but it's important that we include any features the users might need to start matching. For now, there were only be three categories: food, films and TV series. When the user picks an item they like or dislike, they can choose as much as they want until they receive match or they can stop and come back later to continue picking.</p>
+    </div>
+
+    <div class="container">
+        <div class="row persona-img">
+            <div class="col positives">
+                <img class="other-apps" src="../img/vacillate%20architecture%201.png">
+            </div>
+            <div class="col">
+                <img class="other-apps" src="../img/vacillate%20workflow.png">
+            </div>
+        </div>
+        <div class="row persona-img">
+            <div class="col positives">
+                <img class="other-apps" src="../img/vacillate_journeymap.JPG">
+            </div>
+            <div class="col">
+                <img class="other-apps" src="../img/vacillate%20wireframes.png">
+            </div>
+        </div>
+    </div>
+
+    <!-------------FINAL DESIGN--------------->
+    <div class="container wrapper">
+        <h1 class="section-header">Final Design</h1>
+    </div>
+    <div class="container persona-header">
+        <p>
+            Invision Studios was used to create the high fidelity prototypes.
+        </p>
+
+    </div>
+    <div class="container">
+        <div class="row design-row">
+            <div class="col prototype-large">
+                <img class="vacillate-gif" src="../img/vacillate%20gif%201.gif">
+            </div>
+            <div class="col positives">
+                <h2>Create Groups and Pick a Catergory</h2>
+                <p>Name your group, select dates and start inviting people to your group.</p>
+            </div>
+        </div>
+        <div class="row design-row">
+            <div class="col positives">
+                <h2>Adjust Group Preferences</h2>
+                <p>Does anyone in the group have specific preferences? Adjust the settings to fit the needs of the group.</p>
+            </div>
+            <div class="col prototype-large">
+                <img class="vacillate-gif" src="../img/vacillate%20gif%204.gif">
+            </div>
+        </div>
+        <div class="row design-row">
+            <div class="col prototype-large">
+                <img class="vacillate-gif" src="../img/vacillate%20gif%202.gif">
+            </div>
+            <div class="col positives">
+                <h2>Start Matching</h2>
+                <p>See something you like? Give it a heart. Keep going until you find a match or like a few and come back later to see if you matched.</p>
+            </div>
+        </div>
+        <div class="row design-row">
+            <div class="col positives">
+                <h2>Confirm Your Match</h2>
+                <p>After receiving a match, view matched dates and confirm the match to make sure everyone is good to go.</p>
+            </div>
+            <div class="col prototype-large">
+                <img class="vacillate-gif" src="../img/vacillate%20gif%203.gif">
+            </div>
+        </div>
+    </div>
+    <div class="container persona-header">
+        <h3 class="study-header">Style Guide</h3>
+        <p>The design was modeled in the same minimalistic style as dating apps. </p>
+    </div>
+    <div class="container-fluid persona-header">
+        <div class="row">
+            <div class="col">
+                <img class="style-guide" src="../img/vacillate%20design%20guide.png">
+            </div>
+            <div class="col">
+                <img class="style-guide" src="../img/vacillate%20logo%20guide.png">
+            </div>
+        </div>
+
+    </div>
+    <div class="container persona-header">
+        <h3 class="study-header extra-padding-top">Final Takeaway</h3>
+        <p class="extra-padding-bottom">Orginally, the app was going to include more features, such as the ability to pick near by activities and other complex animations. After receiving feedback on the design, it was said that some of these features would be too difficult to implement due to limitations that will be faced in the back-end. One of the most difficult parts of designing a product is understanding what issues developers might face when implementing the design. While it may be easy to create amazing in prototyping software, it might not be as easy to do for developers. Compromises will have to be made between designers and developers in order to create a well designed product.</p>
+    </div>
+    <!------------EXTRA---------------->
+    <a href="#top" class="arrow-top">
+        <ion-icon name="arrow-up-circle-outline"></ion-icon>
+    </a>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+</body>
+
+</html>

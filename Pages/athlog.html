@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Erik Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Mada:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link href="../styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b1e382be15.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--------------------------------NAV---------------------------------------------------------------->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="../index.html">Home</a>
+                    <a class="nav-link ms-4" href="mailto:eriklopezgarza@gmail.com">Contact Me</a>
+                    <a class="nav-link ms-4" href="https://www.linkedin.com/in/eriklopezgarza/">LinkedIn</a>
+                    <a class="nav-link ms-4" href="https://www.deviantart.com/botenerik">DeviantArt</a>
+                    <a class="nav-link ms-4" href="https://pixabay.com/users/botenerik-19894301/">Pixabay</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-----------------------------OVERVIEW--------------------------------->
+    <div class="container-fluid no-gutter">
+        <div class="project-wrapper">
+            <img class="project-cover-img" src="../img/project-cover-header.png">
+        </div>
+    </div>
+    <div class="container wrapper">
+        <h2 class="study-header page-title">Athlog</h2>
+        <h3 class="study-header overview-title">Project Overview</h3>
+        <p class="overview-description">Due to the rapid expansion of the fitness industry, there are now a vast amount of fitness apps and products available for people to use. While there are many different apps and websites that can track cardio, there aren't many that can track exercises and have a clean and modern UI. My goal for was to design a new fitness tracker that is easy for beginners to use.</p>
+    </div>
+    <div class="container wrapper">
+        <h3 class="study-header">The Problem</h3>
+        <p>There aren't many apps available to track workouts, so develop a new workout tracker with a modern, clean and easy to use design.</p>
+    </div>
+    <div class="container wrapper">
+        <h3 class="study-header">Challenges</h3>
+        <p>The biggest challenge for designing a fitness product is the wide variety of fitness enthusiast. From Crossfitters to marathon runners, every group will have a prefence on how their product is designed. So the biggest challenge is to design the app so that it can be helpful for the average fitness enthusiast. It'll be difficult to design an app that everyone will find useful.</p>
+    </div>
+    <!----------Research------------------------>
+    <div class="container wrapper">
+        <h1 class="section-header">Research</h1>
+    </div>
+    <div class="container persona-header">
+        <h3 class="study-header">The Users</h3>
+        <p>In order to discover what features users are interested in, research was done by surveying the types of fitness apps and products people might already be using.</p>
+    </div>
+    <div class="container persona-img">
+        <img class="other-apps" src="../img/athlog%20persona.png">
+    </div>
+    <div class="container persona-header">
+        <h3 class="study-header">Other Products</h3>
+        <p>Since there are many different kinds fitness products already available, it was easy to research what some of them do well and what can be improved. This information will be used to plan out the features and layout of the app.</p>
+    </div>
+    <div class="container-fluid app-comparison">
+        <div class="row">
+            <div class="col">
+                <img class="other-apps img-shadow" src="../img/strava.PNG">
+            </div>
+            <div class="col positives ">
+                <h2>Strava</h2>
+                <br>
+                <p><i class="fas fa-plus"></i> Clean and Simple UI</p>
+                <p><i class="fas fa-plus"></i> Connect With Friends</p>
+                <p><i class="fas fa-plus"></i> Award System</p>
+                <p><i class="fas fa-plus"></i> Can View Stats</p>
+            </div>
+            <div class="col">
+                <img class="other-apps img-shadow" src="../img/fitlist.PNG">
+            </div>
+            <div class="col positives">
+                <h2>Fitlist</h2>
+                <br>
+                <p><i class="fas fa-plus"></i> Simple UI</p>
+                <p><i class="fas fa-plus"></i> Connect With Friends</p>
+                <p><i class="fas fa-plus"></i> Track Workout Time</p>
+                <p><i class="fas fa-plus"></i> Can View History</p>
+                <p><i class="fas fa-minus"></i> Initially Difficult to Use</p>
+            </div>
+            <div class="col">
+                <img class="other-apps img-shadow" src="../img/myfitness.PNG">
+            </div>
+            <div class="col positives">
+                <h2>MyFitnessPal</h2>
+                <br>
+                <p><i class="fas fa-plus"></i> Clean and Simple UI</p>
+                <p><i class="fas fa-plus"></i> Tracks Calorie Intake and Expenditure</p>
+                <p><i class="fas fa-minus"></i> Can"t Set Specific Number of Reps Per Sets</p>
+                <p><i class="fas fa-minus"></i> Does Not Track Time</p>
+            </div>
+        </div>
+    </div>
+    <!----------Design------------------>
+    <div class="container wrapper">
+        <h1 class="section-header">Planning the Design</h1>
+    </div>
+    <div class="container persona-header">
+        <h3 class="study-header">Informational Architecture and Wireframes</h3>
+        <p>The workflow for this design is extremely important since it needs to be simple and easy to use. The app's main goal is to track workouts and will include other features that the users will find useful such as the ability to track weight, runs, view monthly history and connect with friends. A cool and friendly color pallete will help beginners feel welcomed.</p>
+    </div>
+
+    <div class="container">
+        <div class="row persona-img">
+            <div class="col positives">
+                <img class="diagrams" src="../img/athlog-architecture.png">
+            </div>
+            <div class="col">
+                <img class="diagrams" src="../img/athlog%20wire%20frame%20full.png">
+            </div>
+        </div>
+    </div>
+    <!-------------FINAL DESIGN--------------->
+    <div class="container wrapper">
+        <h1 class="section-header">Final Design</h1>
+    </div>
+    <div class="container persona-header">
+        <p>
+            With the power of Adobee XD, high fidelity prototypes were created and with user feedback a final design was developed.
+        </p>
+    </div>
+    <div class="container">
+        <div class="row design-row">
+            <div class="col prototype-large">
+                <img class="img-shadow" src="../img/athlog-workouts.gif">
+            </div>
+            <div class="col positives">
+                <h2>Create New Workout Routines</h2>
+                <p>Create as many workout routines as you need. Input weight, reps, sets and time for each exercise to track progress.</p>
+            </div>
+        </div>
+        <div class="row design-row">
+            <div class="col positives">
+                <h2>Track Your Weight Trends</h2>
+                <p>Use the profile section to update your weight and keep track of weight fluctuations.</p>
+            </div>
+            <div class="col prototype-large">
+                <img class="img-shadow" src="../img/athlog-profile.gif">
+            </div>
+        </div>
+        <div class="row design-row">
+            <div class="col prototype-large">
+                <img class="img-shadow" src="../img/athlog-calendar.gif">
+            </div>
+            <div class="col positives">
+                <h2>View Workout History</h2>
+                <p>The calendar helps you keep track of all the workouts that were previously completed.</p>
+            </div>
+        </div>
+        <div class="row design-row">
+            <div class="col positives">
+                <h2>Complete Goals and Connect With Friends</h2>
+                <p>Level up by earning points for completing goals. Add workout buddies and compete to see who earns the most points every week!</p>
+            </div>
+            <div class="col prototype-large">
+                <img class="img-shadow" src="../img/athlog-goals.gif">
+            </div>
+        </div>
+        <div class="row design-row">
+            <div class="col prototype-large">
+                <img class="img-shadow" src="../img/athlog-cardio.gif">
+            </div>
+            <div class="col positives">
+                <h2>Record Your Runs</h2>
+                <p>Record your runs and view your run history.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container persona-header">
+        <h3 class="study-header">Style Guide</h3>
+        <p>A products branding is extrememly important for fitness products, so it was important to spend a decent amount of time plannning it. The illustrations in the welcome back and login screen were used to help portray a more inclusive and welcoming message. The blue color pallete helps give the design a more modern look.</p>
+    </div>
+    <div class="container-fluid persona-header">
+        <div class="row">
+            <div class="col">
+                <img class="style-guide" src="../img/design%20guide.png">
+            </div>
+            <div class="col">
+                <img class="style-guide" src="../img/athlog%20logo%20design%20guide%20.png">
+            </div>
+        </div>
+    </div>
+    <div class="container persona-header">
+        <h3 class="study-header extra-padding-top">Final Takeaway</h3>
+        <p class="extra-padding-bottom">One of the biggest improvements that can be made for the app design is conducting more thorough research. This proved to be most difficult part of designing a product. More research and testing can greatly improve a product's design, but it's definitely difficult to get more without actually being able to develop the product and only relying on prototypes.</p>
+    </div>
+    <!------------EXTRA---------------->
+    <a href="#top" class="arrow-top">
+        <ion-icon name="arrow-up-circle-outline"></ion-icon>
+    </a>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+</body></html>
